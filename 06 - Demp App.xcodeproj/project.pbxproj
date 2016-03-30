@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58B0CCD1B290B59007F08BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B0CCC1B290B59007F08BB /* AppDelegate.swift */; };
+		B58B0CCF1B290B59007F08BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B0CCE1B290B59007F08BB /* ViewController.swift */; };
+		B58B0CD21B290B59007F08BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58B0CD01B290B59007F08BB /* Main.storyboard */; };
+		B58B0CD41B290B59007F08BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58B0CD31B290B59007F08BB /* Images.xcassets */; };
+		B58B0CD71B290B59007F08BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58B0CD51B290B59007F08BB /* LaunchScreen.xib */; };
+		B58B0CE31B290B59007F08BB /* _6___Demp_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B0CE21B290B59007F08BB /* _6___Demp_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B58B0CDD1B290B59007F08BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B0CBF1B290B59007F08BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58B0CC61B290B59007F08BB;
+			remoteInfo = "06 - Demp App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B58B0CC71B290B59007F08BB /* 06 - Demp App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06 - Demp App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B0CCB1B290B59007F08BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58B0CCC1B290B59007F08BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B58B0CCE1B290B59007F08BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B58B0CD11B290B59007F08BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58B0CD31B290B59007F08BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B58B0CD61B290B59007F08BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B58B0CDC1B290B59007F08BB /* 06 - Demp AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "06 - Demp AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B0CE11B290B59007F08BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58B0CE21B290B59007F08BB /* _6___Demp_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_6___Demp_AppTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58B0CC41B290B59007F08BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58B0CD91B290B59007F08BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58B0CBE1B290B59007F08BB = {
+			isa = PBXGroup;
+			children = (
+				B58B0CC91B290B59007F08BB /* 06 - Demp App */,
+				B58B0CDF1B290B59007F08BB /* 06 - Demp AppTests */,
+				B58B0CC81B290B59007F08BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58B0CC81B290B59007F08BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58B0CC71B290B59007F08BB /* 06 - Demp App.app */,
+				B58B0CDC1B290B59007F08BB /* 06 - Demp AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58B0CC91B290B59007F08BB /* 06 - Demp App */ = {
+			isa = PBXGroup;
+			children = (
+				B58B0CCC1B290B59007F08BB /* AppDelegate.swift */,
+				B58B0CCE1B290B59007F08BB /* ViewController.swift */,
+				B58B0CD01B290B59007F08BB /* Main.storyboard */,
+				B58B0CD31B290B59007F08BB /* Images.xcassets */,
+				B58B0CD51B290B59007F08BB /* LaunchScreen.xib */,
+				B58B0CCA1B290B59007F08BB /* Supporting Files */,
+			);
+			path = "06 - Demp App";
+			sourceTree = "<group>";
+		};
+		B58B0CCA1B290B59007F08BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58B0CCB1B290B59007F08BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B58B0CDF1B290B59007F08BB /* 06 - Demp AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B58B0CE21B290B59007F08BB /* _6___Demp_AppTests.swift */,
+				B58B0CE01B290B59007F08BB /* Supporting Files */,
+			);
+			path = "06 - Demp AppTests";
+			sourceTree = "<group>";
+		};
+		B58B0CE01B290B59007F08BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58B0CE11B290B59007F08BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58B0CC61B290B59007F08BB /* 06 - Demp App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58B0CE61B290B59007F08BB /* Build configuration list for PBXNativeTarget "06 - Demp App" */;
+			buildPhases = (
+				B58B0CC31B290B59007F08BB /* Sources */,
+				B58B0CC41B290B59007F08BB /* Frameworks */,
+				B58B0CC51B290B59007F08BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06 - Demp App";
+			productName = "06 - Demp App";
+			productReference = B58B0CC71B290B59007F08BB /* 06 - Demp App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B58B0CDB1B290B59007F08BB /* 06 - Demp AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58B0CE91B290B59007F08BB /* Build configuration list for PBXNativeTarget "06 - Demp AppTests" */;
+			buildPhases = (
+				B58B0CD81B290B59007F08BB /* Sources */,
+				B58B0CD91B290B59007F08BB /* Frameworks */,
+				B58B0CDA1B290B59007F08BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58B0CDE1B290B59007F08BB /* PBXTargetDependency */,
+			);
+			name = "06 - Demp AppTests";
+			productName = "06 - Demp AppTests";
+			productReference = B58B0CDC1B290B59007F08BB /* 06 - Demp AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58B0CBF1B290B59007F08BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marco Linhares";
+				TargetAttributes = {
+					B58B0CC61B290B59007F08BB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B58B0CDB1B290B59007F08BB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B58B0CC61B290B59007F08BB;
+					};
+				};
+			};
+			buildConfigurationList = B58B0CC21B290B59007F08BB /* Build configuration list for PBXProject "06 - Demp App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58B0CBE1B290B59007F08BB;
+			productRefGroup = B58B0CC81B290B59007F08BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58B0CC61B290B59007F08BB /* 06 - Demp App */,
+				B58B0CDB1B290B59007F08BB /* 06 - Demp AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58B0CC51B290B59007F08BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B0CD21B290B59007F08BB /* Main.storyboard in Resources */,
+				B58B0CD71B290B59007F08BB /* LaunchScreen.xib in Resources */,
+				B58B0CD41B290B59007F08BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58B0CDA1B290B59007F08BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58B0CC31B290B59007F08BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B0CCF1B290B59007F08BB /* ViewController.swift in Sources */,
+				B58B0CCD1B290B59007F08BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58B0CD81B290B59007F08BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B0CE31B290B59007F08BB /* _6___Demp_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B58B0CDE1B290B59007F08BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58B0CC61B290B59007F08BB /* 06 - Demp App */;
+			targetProxy = B58B0CDD1B290B59007F08BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B58B0CD01B290B59007F08BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58B0CD11B290B59007F08BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58B0CD51B290B59007F08BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58B0CD61B290B59007F08BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58B0CE41B290B59007F08BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B58B0CE51B290B59007F08BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58B0CE71B290B59007F08BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06 - Demp App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B58B0CE81B290B59007F08BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06 - Demp App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B58B0CEA1B290B59007F08BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "06 - Demp AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06 - Demp App.app/06 - Demp App";
+			};
+			name = Debug;
+		};
+		B58B0CEB1B290B59007F08BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "06 - Demp AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/06 - Demp App.app/06 - Demp App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58B0CC21B290B59007F08BB /* Build configuration list for PBXProject "06 - Demp App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B0CE41B290B59007F08BB /* Debug */,
+				B58B0CE51B290B59007F08BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58B0CE61B290B59007F08BB /* Build configuration list for PBXNativeTarget "06 - Demp App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B0CE71B290B59007F08BB /* Debug */,
+				B58B0CE81B290B59007F08BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58B0CE91B290B59007F08BB /* Build configuration list for PBXNativeTarget "06 - Demp AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B0CEA1B290B59007F08BB /* Debug */,
+				B58B0CEB1B290B59007F08BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58B0CBF1B290B59007F08BB /* Project object */;
+}

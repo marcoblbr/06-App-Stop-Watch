@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="_6___Demp_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1F-6Y-O1v">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Stopwatch" id="1P5-cZ-WUH">
+                                        <barButtonItem key="leftBarButtonItem" title="Clear" id="B2m-nO-5ik">
+                                            <connections>
+                                                <action selector="buttonCancel:" destination="vXZ-lx-hvc" id="LTq-T9-8J0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXu-pA-848">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="play" id="gvE-mA-fqU">
+                                        <connections>
+                                            <action selector="buttonStart:" destination="vXZ-lx-hvc" id="Eh2-yR-v72"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="FCF-xt-lAh"/>
+                                    <barButtonItem systemItem="pause" id="E9J-1u-5PJ">
+                                        <connections>
+                                            <action selector="buttonPause:" destination="vXZ-lx-hvc" id="MYY-BS-Qj0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRC-W6-jXm">
+                                <rect key="frame" x="-32" y="243" width="382" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="382" id="841-pG-TNU"/>
+                                    <constraint firstAttribute="height" constant="80" id="ubV-UX-8It"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=".00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ej-MP-cBQ">
+                                <rect key="frame" x="281" y="265" width="48" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="pgV-CZ-fP4"/>
+                                    <constraint firstAttribute="width" constant="48" id="rtB-oQ-IDQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmK-vu-Vse">
+                                <rect key="frame" x="47" y="362" width="120" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0kh-n3-2Y9"/>
+                                    <constraint firstAttribute="width" constant="120" id="kPT-DB-i10"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="StartFigButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lcx-t6-2Io"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9h-uE-xJ9">
+                                <rect key="frame" x="472" y="362" width="62" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="4CL-MC-9YP"/>
+                                    <constraint firstAttribute="height" constant="45" id="fVh-Vh-ExG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CancelFigButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Lfq-co-azM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E1F-6Y-O1v" firstAttribute="trailing" secondItem="HXu-pA-848" secondAttribute="trailing" id="93M-5b-SQ6"/>
+                            <constraint firstItem="Y9h-uE-xJ9" firstAttribute="top" secondItem="sRC-W6-jXm" secondAttribute="bottom" constant="39" id="ALF-OC-nuZ"/>
+                            <constraint firstItem="E1F-6Y-O1v" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="B00-vr-bah"/>
+                            <constraint firstItem="zmK-vu-Vse" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="31" id="JTo-yJ-5p6"/>
+                            <constraint firstAttribute="centerY" secondItem="sRC-W6-jXm" secondAttribute="centerY" id="UMC-Hr-My7"/>
+                            <constraint firstAttribute="trailing" secondItem="E1F-6Y-O1v" secondAttribute="trailing" id="VRL-vY-Rbc"/>
+                            <constraint firstAttribute="centerX" secondItem="sRC-W6-jXm" secondAttribute="centerX" id="Zc8-yf-fiW"/>
+                            <constraint firstItem="E1F-6Y-O1v" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="aU3-Pw-K0n"/>
+                            <constraint firstItem="3ej-MP-cBQ" firstAttribute="leading" secondItem="sRC-W6-jXm" secondAttribute="trailing" constant="-69" id="aXD-TD-F7c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y9h-uE-xJ9" secondAttribute="trailing" constant="50" id="c98-Ak-WKS"/>
+                            <constraint firstItem="HXu-pA-848" firstAttribute="leading" secondItem="E1F-6Y-O1v" secondAttribute="leading" id="eCK-Cb-hRA"/>
+                            <constraint firstAttribute="centerY" secondItem="3ej-MP-cBQ" secondAttribute="centerY" id="o3R-hX-fc3"/>
+                            <constraint firstItem="HXu-pA-848" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="tJU-B7-nvp"/>
+                            <constraint firstItem="zmK-vu-Vse" firstAttribute="top" secondItem="sRC-W6-jXm" secondAttribute="bottom" constant="39" id="yz6-Bf-ULH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="StartFigButtonLabel" destination="zmK-vu-Vse" id="7TQ-Xu-Jxg"/>
+                        <outlet property="labelMiliseconds" destination="3ej-MP-cBQ" id="l0Z-k5-fNw"/>
+                        <outlet property="labelTime" destination="sRC-W6-jXm" id="44P-g2-AZI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
